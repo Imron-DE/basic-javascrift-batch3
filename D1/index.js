@@ -175,7 +175,7 @@ if (diskon > 0) {
 buat program untuk mencari bilangan prima dari 1 - 25 menggunakan for loop
 */
 // jawab
-var prima = false;
+let prima = false;
 for (index = 2; index <= 25; index++) {
   if (index >= 2) {
     prima = true;
@@ -195,39 +195,57 @@ for (index = 2; index <= 25; index++) {
 /* soal no.10 : for loop
 buat looping untuk menghasilkan nilai rata-rata dari sebuah array bilangan bulat menggunakan function
 */
-const dataBilanganBulat = [2, 4, 6, 8, 10];
-function Mean(arr) {
-  let sum = 0;
+function hitungRataRata(arr) {
+  let total = 0;
   for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
+    total += arr[i];
   }
-  const mean = sum / arr.length;
-  return mean;
+  return total / arr.length;
 }
 
-console.log(Mean(dataBilanganBulat));
+const dataBilanganBulat = [2, 4, 6, 8, 10];
+const rataRata = hitungRataRata(dataBilanganBulat);
+
+console.log(rataRata);
 
 /* soal 11  : for loop
 Buat function untuk menghitung jumlah huruf kapital pada sebuah string 
  */
 
+function stringKapital(str) {
+  let count = 0;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] >= "A" && str[i] <= "Z") {
+      count++;
+    }
+  }
+  return count;
+}
 let string1 = "Hello World";
-let string2 = "Kiw,Gimana Kabarnya ";
+let string2 = "Kiw,Gimana Kabarnya";
 let string3 = "JAVaScRipT";
 
-const res = Array.from(string1).reduce((acc, char) => {
-  return (acc += char.toUpperCase() === char);
-}, 0);
-
-console.log(res);
+console.log(stringKapital(string1));
+console.log(stringKapital(string2));
+console.log(stringKapital(string3));
 
 /* Soal 12 : for loop
 Buat fungsi untuk mencari nilai tertinggi dari sebuah array 
  */
 
-const nilaiTertinggi = [1, 34, 21, 54, 6567, 65865, 98764, 23, 453];
-
 /* Soal 13  : for 
 buat fungsi untuk membuat piramid (segitiga sama kaki) yang terbuat dari bintang "*" 
 dengan jumlah baris parameter yang di tentukan oleh user melalui parameter fungsi 
 */
+// jawab
+
+const pyramid = (n) => {
+  for (let baris = 1; baris <= n; baris++) {
+    let ruang = "";
+    for (let kolom = 1; kolom <= 2 * n - 1; kolom++) {
+      kolom >= n + 1 - baris && kolom <= n - 1 + baris ? (ruang += "*") : (ruang += " ");
+    }
+    console.log(ruang);
+  }
+};
+pyramid(5);
