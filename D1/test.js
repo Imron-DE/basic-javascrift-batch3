@@ -64,14 +64,14 @@ console.log(findUserHobby(user2));
  * Jika angka yang dimasukkan diluar rentang tersebut, maka tampilkan pesan "Input tidak valid"
  */
 // jawaban
-let day = 8;
+let day = 8; // input yang akan di kirim ke awitch case
 switch (day) {
-  case 1:
+  case 1: // kondisi
     console.log("Monday");
     break;
   case 2:
     console.log("Tuesday");
-    break;
+    break; // menghentikan eksekusi code
   case 3:
     console.log("Wednesday");
     break;
@@ -87,7 +87,7 @@ switch (day) {
   case 7:
     console.log("Sunday");
     break;
-  default:
+  default: // kondisi jika semua case tidak terpenuhi
     console.log("Input tidak valid");
 }
 
@@ -213,7 +213,7 @@ Buat function untuk menghitung jumlah huruf kapital pada sebuah string
  */
 
 function stringKapital(str) {
-  let count = 0;
+  let count = 0; // inisaisi nilai awal 0
   for (let i = 0; i < str.length; i++) {
     if (str[i] >= "A" && str[i] <= "Z") {
       count++;

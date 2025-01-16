@@ -1,0 +1,202 @@
+[
+  {
+    "id": 2,
+    "name": "BAGATATA Hyper Car V12",
+    "price": 370000000000,
+    "tag": [
+      "Produk Terlaris",
+      "Promo"
+    ],
+    "variant": [
+      {
+        "color": "black",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "premium"
+      },
+      {
+        "color": "white",
+        "transmission": "manual",
+        "type": "engine",
+        "fuelType": "premium"
+      }
+    ],
+    "isPreorder": false
+  },
+  {
+    "id": 4,
+    "name": "LEMBERGEMBER Revuelto Supercar V12 Plug-In Hybrid",
+    "price": 7000000000,
+    "tag": [
+      "Produk Terbaru"
+    ],
+    "variant": [
+      {
+        "color": "black",
+        "transmission": "automatic",
+        "type": "hybrid",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "blue",
+        "transmission": "automatic",
+        "type": "hybrid",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "green",
+        "transmission": "automatic",
+        "type": "hybrid",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "red",
+        "transmission": "automatic",
+        "type": "hybrid",
+        "fuelType": "pertamax turbo"
+      }
+    ],
+    "isPreorder": false
+  },
+  {
+    "id": 3,
+    "name": "FIRIRIRI F8 Hyper Car Limited Edition",
+    "price": 4400000000,
+    "tag": [
+      "Produk Terbaru",
+      "Promo"
+    ],
+    "variant": [
+      {
+        "color": "red",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "pertalite"
+      },
+      {
+        "color": "white",
+        "transmission": "manual",
+        "type": "engine",
+        "fuelType": "pertalite"
+      }
+    ],
+    "isPreorder": false
+  },
+  {
+    "id": 5,
+    "name": "TOYOTA Land Cruiser Prado 4x4",
+    "price": 250000000,
+    "tag": [
+      "Produk Terlaris"
+    ],
+    "variant": [
+      {
+        "color": "matte black",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "solar"
+      },
+      {
+        "color": "army",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "solar"
+      },
+      {
+        "color": "white",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "solar"
+      }
+    ],
+    "isPreorder": false
+  },
+  {
+    "id": 7,
+    "name": "Beat Esp 110 Second",
+    "price": 7500000,
+    "tag": [
+      "Produk Terlaris",
+      "Bekas"
+    ],
+    "variant": [
+      {
+        "color": "black",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "navy",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "white",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "pertamax turbo"
+      },
+      {
+        "color": "red",
+        "transmission": "automatic",
+        "type": "engine",
+        "fuelType": "pertamax turbo"
+      }
+    ],
+    "isPreorder": false
+  },
+  {
+    "id": 1,
+    "name": "ESEMKA SUV 4x4 Hybrid",
+    "price": null,
+    "tag": [
+      "Produk Terlaris"
+    ],
+    "variant": [
+      {
+        "color": "black",
+        "transmission": "automatic",
+        "type": "hybrid",
+        "fuelType": "pertalite"
+      },
+      {
+        "color": "silver",
+        "transmission": "manual",
+        "type": "hybrid",
+        "fuelType": "pertalite"
+      }
+    ],
+    "isPreorder": true
+  },
+  {
+    "id": 6,
+    "name": "Wuling YangWang U9 EV",
+    "price": null,
+    "tag": [
+      "Produk Terbaru"
+    ],
+    "variant": [
+      {
+        "color": "matte black",
+        "transmission": "automatic",
+        "type": "electric",
+        "fuelType": "battery"
+      },
+      {
+        "color": "navy",
+        "transmission": "automatic",
+        "type": "electric",
+        "fuelType": "battery"
+      },
+      {
+        "color": "white",
+        "transmission": "automatic",
+        "type": "electric",
+        "fuelType": "battery"
+      }
+    ],
+    "isPreorder": true
+  }
+]
