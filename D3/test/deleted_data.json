@@ -1,0 +1,78 @@
+[
+  {
+    "id": 3,
+    "nama": "Dina",
+    "age": 27,
+    "jobDesk": [
+      {
+        "title": "backend",
+        "salary": 3000000
+      }
+    ],
+    "hobby": [
+      "membaca"
+    ]
+  },
+  {
+    "id": 4,
+    "nama": "deni",
+    "age": 25,
+    "jobDesk": [
+      {
+        "title": "backend",
+        "salary": 4000000
+      }
+    ],
+    "hobby": [
+      "membaca"
+    ]
+  },
+  {
+    "id": 5,
+    "nama": "Dian",
+    "age": 27,
+    "jobDesk": [
+      {
+        "title": "frontend",
+        "salary": 8000000
+      }
+    ],
+    "hobby": [
+      "membaca"
+    ]
+  },
+  [
+    {
+      "id": 6,
+      "nama": "dini",
+      "age": 27,
+      "jobDesk": [
+        {
+          "title": "Quality Assurance",
+          "salary": 9000000
+        }
+      ],
+      "hobby": [
+        "membaca",
+        "menulis"
+      ]
+    }
+  ],
+  [
+    {
+      "id": 7,
+      "nama": "doni",
+      "age": 27,
+      "jobDesk": [
+        {
+          "title": "Quality Assurance",
+          "salary": 9000000
+        }
+      ],
+      "hobby": [
+        "membaca",
+        "menulis"
+      ]
+    }
+  ]
+]
